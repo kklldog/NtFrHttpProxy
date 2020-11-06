@@ -1,0 +1,3918 @@
+2020-11-06 22:57:54.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/home/index to http://localhost:5000
+
+2020-11-06 22:57:54.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：POST
+
+2020-11-06 22:57:54.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：application/json
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Content-Length value:43
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Content-Type value:application/json
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:PostmanRuntime/7.26.5
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Postman-Token value:a1fad057-d53c-4fd4-a4f7-d7355f685f41
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: {
+  "cardNo": "123",
+  "cardType": "1"
+}
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Pragma value no-cache
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Transfer-Encoding value chunked
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 14:57:54 GMT
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Server value Kestrel
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 22:57:55.57 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 22:59:34.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/ to http://localhost:5000
+
+2020-11-06 22:59:34.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 22:59:34.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 22:59:34.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 22:59:34.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Pragma value no-cache
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Transfer-Encoding value chunked
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 14:59:35 GMT
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 22:59:35.59 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:00:24.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/ to http://localhost:5000
+
+2020-11-06 23:00:24.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:00:24.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:00:24.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:00:24.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:00:24.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:00:24.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:00:24.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:00:24.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Transfer-Encoding value chunked
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:00:25 GMT
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 23:00:25.00 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/ to http://localhost:5000
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/home/index to http://localhost:5000
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:01:41.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:42 GMT
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:42 GMT
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/css/v2/login.css?v=zgCriY3RXcOwgIS8_lgXQFMmjMbHOnY9jFrhqONIsFw to http://localhost:5000
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/css/v2/list.css?v=_2f-dwd37JnmCYiQ5zWlbGtlNx9PJMtlIiOQKDJjfTM to http://localhost:5000
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/css/amaze.css to http://localhost:5000
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/css/v2/input.css?v=auO0PHb4Y7MfcEBYS0SQyzR9lbTxn0kMebFVBdM6_z0 to http://localhost:5000
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/css/v2/base.css?v=8_xPFpXsBW3N65WpsEIb-Krdh2zWijNkuXnol1didRU to http://localhost:5000
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/css/datetimepicker/amazeui.datetimepicker.css to http://localhost:5000
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:42.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:43.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:43 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:43 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b0f8534de139"
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6af679167c713"
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:44 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 02 Nov 2020 09:12:45 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Sat, 31 Oct 2020 09:24:01 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:44 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b52bca66"
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:44 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b27918bf8b32"
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:46 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:44 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b1d92756480d"
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Wed, 04 Nov 2020 07:07:03 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Tue, 03 Nov 2020 12:02:08 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b52eba11"
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css to http://localhost:5000
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/css/site.css?v=kmAzxjW3JX2_votgbWltxSjaahH6BerleLTQAGXql1c to http://localhost:5000
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:46 GMT
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/loading-bar.min.css to http://localhost:5000
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/moment.min.js to http://localhost:5000
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/jquery-1.10.2.min.js to http://localhost:5000
+
+2020-11-06 23:01:44.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/datetimepicker/amazeui.datetimepicker.min.js to http://localhost:5000
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:45.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:46 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:46 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b4961f43"
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b52e6474"
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:46 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:45 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:46 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b52fc2d3"
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:46 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:46 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:46 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:46 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b3fd88d1"
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b52e3e4d"
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b497cff5"
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:44 GMT
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:46.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:46 GMT
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/datetimepicker/amazeui.datetimepicker.zh-CN.js to http://localhost:5000
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/css/amaze.css to http://localhost:5000
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:45 GMT
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/css/datetimepicker/amazeui.datetimepicker.css to http://localhost:5000
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/layer/layer.js to http://localhost:5000
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/angular.min.js to http://localhost:5000
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:47.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/pca.js?v=Gw5pY12V4ZOOztoqmi2YxSPSW1lYHmkM61L7q4MrQb8 to http://localhost:5000
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:48.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:48 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:48 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:48 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b52ce047"
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b49640e4"
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b52eae2d"
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:45 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:48 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:46 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:46 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:49 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b49371e6"
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b1a7a761be6b"
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:45 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/countrys.js?v=_7drHvYyoiSI6JnIvl8T5o316YAxyIgWVldFOryc_yM to http://localhost:5000
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Tue, 03 Nov 2020 06:07:48 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/app.js?v=06Np_BV-P3P92RK0JU8n9y-waQcsIoCT1-HebFdBILw to http://localhost:5000
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/layer/theme/default/layer.css?v=3.1.1 to http://localhost:5000
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:49 GMT
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:49.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b4960191"
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/list.js?v=e8d7k3BMMNIfCm-iHawmRH5rczFBoocEizOgcGa2m_A to http://localhost:5000
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/enums.js?v=t-pMcU-OIN4T4SdqaHp0Gr106ZSWB5scWZcegQT-TQQ to http://localhost:5000
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:45 GMT
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/css,*/*;q=0.1
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/inputs.js?v=88tHQCIV1BpkVJSlCQYDc2kq2TUq2_ktP_XJqG00WoE to http://localhost:5000
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:50.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:style
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:51 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b191096589a5"
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:51 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b4962e9f"
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:51 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Tue, 03 Nov 2020 03:25:54 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:51 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:45 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b36ba085b479"
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/css
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b357c86b3e71"
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Thu, 05 Nov 2020 09:41:06 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Thu, 05 Nov 2020 12:03:09 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:51 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b355424dd433"
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/services.js?v=TN4OXrcPa4CsjdSoI6-mPJByqOtnZaoE3SjUku9_AdQ to http://localhost:5000
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Thu, 05 Nov 2020 09:23:02 GMT
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/login.js?v=GalhLQ5pQES7WCcxKOzZ8fKCftaZr6FQ0eTpPP9XzUk to http://localhost:5000
+
+2020-11-06 23:01:51.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:51 GMT
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/datetimepicker.js to http://localhost:5000
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/controls/ctls.js?v=x8b8gNd5-f_Gx6xPg4hYqgae6Hnxb-52R-72HwBnFh4 to http://localhost:5000
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b36abe9ecf5e"
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Thu, 05 Nov 2020 11:56:50 GMT
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/js/requiredValidateService.js?v=T26AtvvergWLxh-rF06WAJdRtQAbYkd0RCETDpwVBQo to http://localhost:5000
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/jquery/dist/jquery.min.js to http://localhost:5000
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:52.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:53 GMT
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b354aa4ffa90"
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:53 GMT
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Thu, 05 Nov 2020 09:18:47 GMT
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b36a286ac4a7"
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Thu, 05 Nov 2020 11:52:38 GMT
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:53 GMT
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:53.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b354fc911eaf"
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/bootstrap/dist/js/bootstrap.min.js to http://localhost:5000
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Thu, 05 Nov 2020 09:21:05 GMT
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/moment.min.js to http://localhost:5000
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:53 GMT
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6af31f4d71bb6"
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:54 GMT
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Sat, 31 Oct 2020 03:00:15 GMT
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6b27a95068bd9"
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Wed, 04 Nov 2020 07:17:41 GMT
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:54.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/images/login/bg_workstation.jpg to http://localhost:5000
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/images/login/logo_mdsd.png to http://localhost:5000
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:54 GMT
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b365ba11"
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:43 GMT
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/client/css/v2/login.css?v=zgCriY3RXcOwgIS8_lgXQFMmjMbHOnY9jFrhqONIsFw
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/echarts.js to http://localhost:5000
+
+2020-11-06 23:01:55.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:55 GMT
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:55 GMT
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b496863b"
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b496dff4"
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:image
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:45 GMT
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:45 GMT
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:image
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/datetimepicker/amazeui.datetimepicker.min.js to http://localhost:5000
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:56 GMT
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/datetimepicker/amazeui.datetimepicker.zh-CN.js to http://localhost:5000
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ae999e1c724c"
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:56 GMT
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Fri, 30 Oct 2020 08:49:46 GMT
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ae999e1dd066"
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: image/jpeg
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Fri, 30 Oct 2020 08:49:46 GMT
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: image/png
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:56.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:57 GMT
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b3fd832d"
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:44 GMT
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:57 GMT
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b3fd134d"
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/angular.min.js to http://localhost:5000
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:44 GMT
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/angular-animate.min.js to http://localhost:5000
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:57.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:58 GMT
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:58 GMT
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b3fd1232"
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b3ff0e27"
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:44 GMT
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:44 GMT
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/angular-ui-router.js to http://localhost:5000
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/angular.cookie.min.js to http://localhost:5000
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:58.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:58 GMT
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b369cfee"
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:43 GMT
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/loading-bar.min.js to http://localhost:5000
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:59 GMT
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b3fd85d0"
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:44 GMT
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/angular-animate.min.js.map to http://localhost:5000
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:01:59 GMT
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/angular.min.js.map to http://localhost:5000
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ab40b3fbfb5b"
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/ngbootstrappagebar.js to http://localhost:5000
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Mon, 26 Oct 2020 02:35:44 GMT
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: application/javascript
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:01:59.01 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/js/main.js?v=5i1t4ZCcz6xoYeCW8Wb6WJRN728avBorWTOxz9v2GOE to http://localhost:5000
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/Angular/angular-ui-router.js.map to http://localhost:5000
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:script
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Pragma value:no-cache
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:empty
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:*/*
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:empty
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/home/index
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:02:00.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/ to http://localhost:5000
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/lib/bootstrap/dist/css/bootstrap.min.css.map to http://localhost:5000
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:no-cache
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:02:44.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:empty
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:02:45.02 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/ to http://localhost:5000
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:max-age=0
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Pragma value no-cache
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Cache-Control value no-store,no-cache
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:03:26 GMT
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Server value Kestrel
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 23:03:26.03 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/images/login/bg_workstation.jpg to http://localhost:5000
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:If-Range value:"1d6ae999e1c724c"
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/client/css/v2/login.css?v=zgCriY3RXcOwgIS8_lgXQFMmjMbHOnY9jFrhqONIsFw
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Range value:bytes=69177-69177
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:image
+
+2020-11-06 23:03:27.03 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:05:02.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/ to http://localhost:5000
+
+2020-11-06 23:05:02.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:05:02.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:05:02.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:05:02.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:05:02.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Pragma value no-cache
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Cache-Control value no-store,no-cache
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:05:02 GMT
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Server value Kestrel
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 23:05:03.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/client/images/login/bg_workstation.jpg to http://localhost:5000
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Referer value:http://localhost:56862/client/css/v2/login.css?v=zgCriY3RXcOwgIS8_lgXQFMmjMbHOnY9jFrhqONIsFw
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:same-origin
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:no-cors
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:image
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Accept-Ranges value bytes
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:05:03 GMT
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key ETag value "1d6ae999e1c724c"
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Last-Modified value Fri, 30 Oct 2020 08:49:46 GMT
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Server value Kestrel
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: image/jpeg
+
+2020-11-06 23:05:04.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/home/error to http://localhost:5000
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Pragma value no-cache
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Cache-Control value no-cache, no-store
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:05:25 GMT
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Server value Kestrel
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 23:05:26.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/home/error to http://localhost:5000
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:max-age=0
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Pragma value no-cache
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Cache-Control value no-cache, no-store
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:05:32 GMT
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Server value Kestrel
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 23:05:32.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/home/error to http://localhost:5000
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:max-age=0
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Pragma value no-cache
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Cache-Control value no-cache, no-store
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:05:34 GMT
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Server value Kestrel
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 23:05:35.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/home/error to http://localhost:5000
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cache-Control value:max-age=0
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Pragma value no-cache
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Cache-Control value no-cache, no-store
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:05:40 GMT
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Server value Kestrel
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/html; charset=utf-8
+
+2020-11-06 23:05:41.05 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/home/updateversion to http://localhost:5000
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-User value:?1
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:05:54.05 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:06:16.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer : from http://localhost:5000/home/UpdatePackageVersion to http://localhost:5000
+
+2020-11-06 23:06:16.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer set method ：GET
+
+2020-11-06 23:06:16.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer set ContentType ：
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Connection value:keep-alive
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept value:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Encoding value:gzip, deflate, br
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Accept-Language value:zh-CN,zh;q=0.9,en;q=0.8,zh-TW;q=0.7
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Cookie value:ASP.NET_SessionId=d1r1skiejim0opnmgoqptj1g; .AspNetCore.Antiforgery.fPFPAclgD98=CfDJ8ITEp1GfU9RAkrF2uwrwDoT_jToJtvMYY8Gt9YJa12-EzCNjocyXvWxwxX7NQnQq4TplTrilKknnnX5b_CHm5FRyl1BHystGLC0wOoCnfRijUOLfrd-c51t2yo-7KIZ2U295ky5WfGihnovDUMM73fY
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Host value:localhost:56862
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:User-Agent value:Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Upgrade-Insecure-Requests value:1
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Site value:none
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Mode value:navigate
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer add header: key:Sec-Fetch-Dest value:document
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : transfer body: 
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Pragma value no-cache
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Cache-Control value no-store,no-cache
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Date value Fri, 06 Nov 2020 15:06:17 GMT
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set header: key Server value Kestrel
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set ContentType: text/plain; charset=utf-8
+
+2020-11-06 23:06:17.06 TRACE HttpProxy2.ReverseProxy
+Message : WriteResponse set StatusCode: 200
+
