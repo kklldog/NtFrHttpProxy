@@ -20,6 +20,8 @@ namespace HttpProxy
 
         public string ContentType { get; set; }
 
+        public string Accept { get; set; }
+
         public string Host { get; set; }
 
         public IWebProxy Proxy { get; set; }
@@ -100,11 +102,18 @@ namespace HttpProxy
             "Content-Type",
             "Host",
             "User-Agent",
-            "Accept",
             "Referer",
             "Content-Length",
             "Transfer-Encoding",
-            "Range"
+            "Range",
+            "Request-Id",
+            "RequestId",
+            "RequestID",
+            "request-id",
+            "requestid",
+            "Accept",
+            "If-Modified-Since",
+            "Expect"
         };
 
         public static HttpWebRequest CreateRequest(string url, HttpRequestOptions options)
@@ -118,6 +127,10 @@ namespace HttpProxy
             if (!options.Host.IsNullOrEmpty())
             {
                 request.Host = options.Host;
+            }
+            if (!options.Accept.IsNullOrEmpty())
+            {
+                //request.Accept = options.Accept;
             }
             if (options.Proxy != null)
             {

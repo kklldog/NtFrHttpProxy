@@ -1,0 +1,142 @@
+2020-11-07 10:39:14.39 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/
+Exception : 必须使用适当的属性或方法修改“Accept”标头。
+参数名: name
+StackTrace :
+   在 System.Net.WebHeaderCollection.ThrowOnRestrictedHeader(String headerName)
+   在 System.Net.WebHeaderCollection.Add(String name, String value)
+   在 HttpProxy.MyHttpRequest.CreateRequest(String url, HttpRequestOptions options) 位置 D:\WORKSPACE\HttpProxy2\HttpRequest.cs:行号 131
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 106
+
+2020-11-07 10:43:12.43 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/client/css/v2/input.css?v=auO0PHb4Y7MfcEBYS0SQyzR9lbTxn0kMebFVBdM6_z0
+Exception : 必须使用适当的属性或方法修改“If-Modified-Since”标头。
+参数名: name
+StackTrace :
+   在 System.Net.WebHeaderCollection.ThrowOnRestrictedHeader(String headerName)
+   在 System.Net.WebHeaderCollection.Add(String name, String value)
+   在 HttpProxy.MyHttpRequest.CreateRequest(String url, HttpRequestOptions options) 位置 D:\WORKSPACE\HttpProxy2\HttpRequest.cs:行号 138
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 10:43:12.43 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/client/css/v2/base.css?v=8_xPFpXsBW3N65WpsEIb-Krdh2zWijNkuXnol1didRU
+Exception : 必须使用适当的属性或方法修改“If-Modified-Since”标头。
+参数名: name
+StackTrace :
+   在 System.Net.WebHeaderCollection.ThrowOnRestrictedHeader(String headerName)
+   在 System.Net.WebHeaderCollection.Add(String name, String value)
+   在 HttpProxy.MyHttpRequest.CreateRequest(String url, HttpRequestOptions options) 位置 D:\WORKSPACE\HttpProxy2\HttpRequest.cs:行号 138
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 10:45:02.45 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/client/css/v2/login.css?v=zgCriY3RXcOwgIS8_lgXQFMmjMbHOnY9jFrhqONIsFw
+Exception : 必须使用适当的属性或方法修改“If-Modified-Since”标头。
+参数名: name
+StackTrace :
+   在 System.Net.WebHeaderCollection.ThrowOnRestrictedHeader(String headerName)
+   在 System.Net.WebHeaderCollection.Add(String name, String value)
+   在 HttpProxy.MyHttpRequest.CreateRequest(String url, HttpRequestOptions options) 位置 D:\WORKSPACE\HttpProxy2\HttpRequest.cs:行号 138
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 10:45:02.45 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/client/css/v2/input.css?v=auO0PHb4Y7MfcEBYS0SQyzR9lbTxn0kMebFVBdM6_z0
+Exception : 必须使用适当的属性或方法修改“If-Modified-Since”标头。
+参数名: name
+StackTrace :
+   在 System.Net.WebHeaderCollection.ThrowOnRestrictedHeader(String headerName)
+   在 System.Net.WebHeaderCollection.Add(String name, String value)
+   在 HttpProxy.MyHttpRequest.CreateRequest(String url, HttpRequestOptions options) 位置 D:\WORKSPACE\HttpProxy2\HttpRequest.cs:行号 138
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 10:47:11.47 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/client/css/v2/input.css?v=auO0PHb4Y7MfcEBYS0SQyzR9lbTxn0kMebFVBdM6_z0
+Exception : 必须使用适当的属性或方法修改“If-Modified-Since”标头。
+参数名: name
+StackTrace :
+   在 System.Net.WebHeaderCollection.ThrowOnRestrictedHeader(String headerName)
+   在 System.Net.WebHeaderCollection.Add(String name, String value)
+   在 HttpProxy.MyHttpRequest.CreateRequest(String url, HttpRequestOptions options) 位置 D:\WORKSPACE\HttpProxy2\HttpRequest.cs:行号 138
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 10:47:11.47 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/client/css/v2/login.css?v=zgCriY3RXcOwgIS8_lgXQFMmjMbHOnY9jFrhqONIsFw
+Exception : 必须使用适当的属性或方法修改“If-Modified-Since”标头。
+参数名: name
+StackTrace :
+   在 System.Net.WebHeaderCollection.ThrowOnRestrictedHeader(String headerName)
+   在 System.Net.WebHeaderCollection.Add(String name, String value)
+   在 HttpProxy.MyHttpRequest.CreateRequest(String url, HttpRequestOptions options) 位置 D:\WORKSPACE\HttpProxy2\HttpRequest.cs:行号 138
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 10:48:51.48 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/client/css/v2/input.css?v=auO0PHb4Y7MfcEBYS0SQyzR9lbTxn0kMebFVBdM6_z0
+Exception : 远程服务器返回错误: (304) 未修改。
+StackTrace :
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 10:48:51.48 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/client/css/v2/login.css?v=zgCriY3RXcOwgIS8_lgXQFMmjMbHOnY9jFrhqONIsFw
+Exception : 远程服务器返回错误: (304) 未修改。
+StackTrace :
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 10:57:23.57 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/api/account/login
+Exception : 基础连接已经关闭: 接收时发生错误。
+StackTrace :
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 10:57:23.57 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/api/account/login > Inner Ex .
+Exception : 无法从传输连接中读取数据: 连接已关闭。
+StackTrace :
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.HttpWebRequest.MakeMemoryStream(Stream stream)
+
+2020-11-07 11:00:44.00 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/api/account/login
+Exception : 基础连接已经关闭: 接收时发生错误。
+StackTrace :
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 105
+
+2020-11-07 11:00:44.00 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/api/account/login > Inner Ex .
+Exception : 无法从传输连接中读取数据: 连接已关闭。
+StackTrace :
+   在 System.Net.ConnectStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   在 System.Net.HttpWebRequest.MakeMemoryStream(Stream stream)
+
+2020-11-07 11:03:19.03 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/
+Exception : 无法发送具有此谓词类型的内容正文。
+StackTrace :
+   在 System.Net.HttpWebRequest.CheckProtocol(Boolean onRequestStream)
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 109
+
+2020-11-07 11:06:16.06 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/
+Exception : 无法连接到远程服务器
+StackTrace :
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 121
+
+2020-11-07 11:06:16.06 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/ > Inner Ex .
+Exception : 由于目标计算机积极拒绝，无法连接。 127.0.0.1:5000
+StackTrace :
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+
+2020-11-07 11:07:19.07 ERROR HttpProxy2.ReverseProxy
+Message : transfer a request occous err . http://localhost:5000/client/js/angular.min.js.map
+Exception : 远程服务器返回错误: (404) 未找到。
+StackTrace :
+   在 System.Net.HttpWebRequest.GetResponse()
+   在 HttpProxy2.ReverseProxy.Transfer(HttpRequest hr) 位置 D:\WORKSPACE\HttpProxy2\ReverseProxy.cs:行号 121
+

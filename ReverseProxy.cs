@@ -40,14 +40,14 @@ namespace HttpProxy2
                 if (!MyHttpRequest.ExHeaders.Contains(item))
                 {
                     Logger.Trace($"WriteResponse set header: key {item} value {val}", GetType());
-                    to.Headers.Add(item, val);
+                    //to.Headers.Add(item, val);
                 }
             }
             to.ContentType = from.ContentType;
             Logger.Trace($"WriteResponse set ContentType: {from.ContentType}", GetType());
             to.StatusCode = (int)from.StatusCode;
             Logger.Trace($"WriteResponse set StatusCode: {(int)from.StatusCode}", GetType());
-
+            
             string _responseContent = "";
             var responseStream = from.GetResponseStream();
             if (responseStream != null)
@@ -65,7 +65,7 @@ namespace HttpProxy2
             {
                 _responseContent = "";
             }
-
+            Logger.Trace($"WriteResponse write ResponseContent: {_responseContent}", GetType());
             to.Write(_responseContent);
         }
 
@@ -75,14 +75,13 @@ namespace HttpProxy2
 
             var url = to_server + hr.RawUrl;
 
-            Logger.Trace($"transfer : from {url} to {to_server}", GetType());
+            Logger.Trace($"transfer : from {hr.Url} to {to_server}", GetType());
 
             var httpOp = new HttpRequestOptions();
             httpOp.Method = hr.HttpMethod;
             Logger.Trace($"transfer set method ：{hr.HttpMethod}", GetType());
             httpOp.ContentType = hr.ContentType;
             Logger.Trace($"transfer set ContentType ：{hr.ContentType}", GetType());
-
             httpOp.Headers = new List<KeyValuePair<string, string>>();
             foreach (var item in hr.Headers.AllKeys)
             {
@@ -93,7 +92,11 @@ namespace HttpProxy2
                     httpOp.Headers.Add(new KeyValuePair<string, string>(item, val));
                 }
             }
-
+            if (hr.AcceptTypes != null)
+            {
+                httpOp.Accept = string.Join(",", hr.AcceptTypes);
+            }
+            
             byte[] byts = new byte[hr.InputStream.Length];
             hr.InputStream.Read(byts, 0, byts.Length);
             httpOp.PostBody = byts;
@@ -103,7 +106,21 @@ namespace HttpProxy2
             WebResponse response = null;
             try
             {
-                response = MyHttpRequest.CreateRequest(url, httpOp).GetResponse();
+                var req = MyHttpRequest.CreateRequest(url, httpOp);
+                if (httpOp.Method == "POST" || httpOp.Method == "PUT")
+                {
+                    if (httpOp.PostBody != null)
+                    {
+                        req.ContentLength = httpOp.PostBody.Length;
+                        using (var requestStream = req.GetRequestStream())
+                        {
+                            requestStream.Write(httpOp.PostBody, 0, httpOp.PostBody.Length);
+                        }
+                    }
+                }
+            
+                response = req.GetResponse();
+
             }
             catch (Exception e)
             {
